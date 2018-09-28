@@ -12,7 +12,8 @@ serde_json = "1.0"
 tokio-core = "0.1.8"
 tokio-timer = "0.1.2"
 toml = "0.4.2"
-web3 = { git = "https://github.com/tomusdrw/rust-web3" }
+web3 = { git = "https://github.com/branciard/rust-web3", branch = "add-tempo"  }
+#web3 = { git = "https://github.com/tomusdrw/rust-web3" }
 error-chain = "0.12"
 ethabi = "6.0"
 rustc-hex = "1.0"
