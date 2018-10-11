@@ -9,7 +9,7 @@ const writeFileAsync = Promise.promisify(fs.writeFile);
 var MSG_SENDER = process.argv[2] || "0x0513425AE000f5bAEaD0ed485ED8c36E737e3586";
 var SMART_CONTRACT_ADDRESS = process.argv[3] || "0xdaf9346b7e255c998c486fdb0968eb487129e51a";
 //poa test :
-var NODE_TARGET = process.argv[3] || "http://localhost:8545";
+var NODE_TARGET = process.argv[4] || "http://localhost:8545";
 
 web3 = new Web3(new Web3.providers.HttpProvider(NODE_TARGET));
 
